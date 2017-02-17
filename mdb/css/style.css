@@ -1,0 +1,84 @@
+/* YOUR CUSTOM STYLES */
+
+html,
+body,
+.header-home,
+.view {
+    height: 100%;
+}
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #9c27b0;
+}
+
+@media only screen and (max-width: 768px) {
+    header{
+       /*height: 80%;*/
+    }
+
+    .navbar {
+        background-color: #9c27b0;
+    }
+
+    .perkenalan{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .logo_header{
+      padding-top: 90px;
+      display: inline;
+    }
+}
+/*Intro*/
+
+.view img, .view video {
+     display: inline;
+    position: relative;
+}
+
+.full-bg-img {
+    color: #fff;
+}
+
+.view {
+    background: url("../img/maxresdefault.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .full-bg-img,
+    .view {
+        height: auto;
+        position: relative;
+    }
+}
+
+.description {
+    padding-top: 5%;
+    padding-bottom: 3rem;
+    color: #fff
+}
+
+@media (max-width: 992px) {
+    .description {
+        padding-top: 7rem;
+        text-align: center;
+    }
+}
+
+.perkenalan{
+  width: 700px;
+}
+
+footer.page-footer {
+    background-color: #FF8544;
+}

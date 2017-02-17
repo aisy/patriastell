@@ -48,10 +48,10 @@
           </nav>
         </div>
         <span class="android-mobile-title mdl-layout-title">
-          <img class="android-logo-image" src="images/android-logo.png">
+          <img class="android-logo-image " src="images/android-logo.png">
         </span>
 
-        <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+        <button class="android-more-button dialog-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
           <i class="material-icons">perm_contact_calendar</i>
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
@@ -296,6 +296,6 @@
 </div>
 
 <script src="<?= base_url().'mdl/' ?>js/material.min.js"></script>
-<script src="<?= base_url().'mdl/' ?>js/ohjs.js"></script>
+<!-- <script src="<?= base_url().'mdl/' ?>js/ohjs.js"></script> -->
 </body>
 </html>

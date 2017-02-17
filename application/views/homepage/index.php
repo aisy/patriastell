@@ -1,142 +1,223 @@
+<!--Main layout-->
+<main>
+    <div class="container">
 
-<!-- HEADER -->
-<div class="android-content mdl-layout__content">
-  <a name="top"></a>
+        <!--Section: Produk-->
+        <section class="section" id="produk">
 
-  <div class="android-be-together-section mdl-typography--text-center">
-    <div class="android_bg-container-overlay">
-      <img src="<?= base_url().'mdl/' ?>images/logo.png" class="img-responsive android-logo" alt="Image">
-      <div class="logo-font android-slogan">Patria Steel Engineering</div>
-      <div class="logo-font android-sub-slogan">Kami Jual dan jasa pembuatan tangki solar dan air di blitar siap melayani permintaan anda di seluruh indonesia</div>
+            <!--Section heading-->
+            <h1 class="section-heading wow fadeIn purple-text" data-wow-delay="0.2s">
+              Yang Kami Tawarkan kepada anda
+            </h1>
+
+            <hr>
+
+            <!--Section description-->
+            <p class="section-description lead wow fadeIn" data-wow-delay="0.4s">Kami menawarkan jasa pembuatan aneka jenis tangki dengan aneka pilihan ukuran untuk memenuhi kebutuhan anda, berikut ini adalah aneka jenis tangki dan ukuran tangki yang kami produksi:</p>
+
+            <!--First row-->
+            <div class="row text-xs-center">
+
+                <!--First column-->
+                <div class="col-md-4 mb-r wow zoomIn">
+
+                    <!--Featured image-->
+                    <div class="view overlay hm-white-slight z-depth-2">
+                        <img src="http://mdbootstrap.com/images/regular/city/img%20(5).jpg">
+                        <a>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+
+                    <!--Excerpt-->
+                    <div class="card-block blue-text">
+                          <i class="fa fa-tint fa-2x"></i>
+                        <h3 class="text-red">Tangki Air</h3>
+                    </div>
+
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-md-4 mb-r wow zoomIn" data-wow-delay="0.2s">
+
+                    <!--Featured image-->
+                    <div class="view overlay hm-white-slight z-depth-2">
+                        <img src="http://mdbootstrap.com/images/regular/city/img%20(6).jpg">
+                        <a>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+
+                    <!--Excerpt-->
+                    <div class="card-block red-text">
+                          <i class="fa fa-fire fa-2x"></i>
+                        <h3 class="text-red">Tangki Solar</h3>
+                    </div>
+
+                </div>
+                <!--/Second column-->
+
+                <!--Third column-->
+                <div class="col-md-4 mb-r wow zoomIn" data-wow-delay="0.2s">
+
+                    <!--Featured image-->
+                    <div class="view overlay hm-white-slight z-depth-2">
+                        <img src="http://mdbootstrap.com/images/regular/city/img%20(6).jpg">
+                        <a>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+
+                    <!--Excerpt-->
+                    <div class="card-block green-text">
+                          <i class="fa fa-leaf fa-2x"></i>
+                        <h3 class="text-red">Tangki Pupuk</h3>
+                    </div>
+
+                </div>
+                <!--/Third column-->
+
+                <a class="btn purple waves-effect waves-light"><i class="fa fa-clone left"></i> Lihat Produk kami</a>
+
+            </div>
+            <!--/First row-->
+
+        </section>
+        <!--/Section: Produk-->
+
+        <hr class="between-sections">
+
+        <!--Section: Fitur-->
+        <section class="section feature-box" id="best-features">
+
+            <!--Section heading-->
+            <h1 class="section-heading wow fadeIn purple-text" data-wow-delay="0.2s">Kami sudah berpengalaman!</h1>
+            <!--Section description-->
+            <p class="section-description lead wow fadeIn" data-wow-delay="0.4s">Selama puluhan tahun kami berada di bisnis Pembuatan tangki ini, jadi kami tahu benar apa yang menjadi kebutuhan pelanggan kami. Berikut ini adalah beberapa alasan utama kenapa para pelanggan kami memesan tangki kepada kami :</p>
+
+            <!--First row-->
+            <div class="row features-big">
+                <!--First column-->
+                <div class="col-md-6 mb-r wow pulse" data-wow-delay="0.2s">
+                    <i class="fa fa-diamond blue-text"></i>
+                    <h4 class="feature-title">Kualitas Prima</h4>
+                    <p class="grey-text">kami menyediakan aneka jenis tangki dengan kualitas terbaik dengan bahan terbaik sesuai dengan peruntukannya termasuk untuk jasa instalasinya.</p>
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-md-6 mb-r wow pulse">
+                    <i class="fa fa-line-chart red-text"></i>
+                    <h4 class="feature-title">Harga Bersaing</h4>
+                    <p class="grey-text">banyaknya supplier tangki tentu sangat mudah bagi anda untuk membandingkan harga yang kami berikan dan anda akan menemukan bahwa harga yang kami berikan sangat bersaing dengan kualitas yang baik.</p>
+                </div>
+                <!--/Second column-->
+            </div>
+            <!--/First row-->
+
+        </section>
+        <!--/Section: Fitur-->
+
+        <hr class="between-sections">
+
+        <!--Section: Kontak-->
+        <section class="section mb-4" id="contact">
+
+            <!--Section heading-->
+            <h1 class="section-heading wow fadeIn purple-text" data-wow-delay="0.2s">Kontak</h1>
+            <!--Section description-->
+            <p class="section-description m-b-5 wow fadeIn" data-wow-delay="0.2s">kesulitan dalam transaksi? atau ingin bertanya? jangan khawatir kami terbuka kepada anda silahkan hubungi kami melalui SMS, email dan jika perlu silahkan datang ke tempat kami</p>
+
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-5 wow fadeInLeft">
+
+                    <!--Form with header-->
+                    <div class="card">
+
+                        <div class="card-block">
+                            <!--Header-->
+                            <div class="form-header purple">
+                                <h3><i class="fa fa-envelope"></i> Write to us:</h3>
+                            </div>
+
+                            <p>We'll write rarely, but only the best content.</p>
+                            <br>
+
+                            <!--Body-->
+                            <div class="md-form">
+                                <i class="fa fa-user prefix"></i>
+                                <input type="text" id="form3" class="form-control">
+                                <label for="form3">Your name</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-envelope prefix"></i>
+                                <input type="text" id="form2" class="form-control">
+                                <label for="form2">Your email</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-tag prefix"></i>
+                                <input type="text" id="form32" class="form-control">
+                                <label for="form32">Subject</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-pencil prefix"></i>
+                                <textarea type="text" id="form8" class="md-textarea"></textarea>
+                                <label for="form8">Icon Prefix</label>
+                            </div>
+
+                            <div class="text-xs-center">
+                                <button class="btn btn-gplus">Submit</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--/Form with header-->
+
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-md-7 wow fadeInRight">
+
+                    <!--Google map-->
+                    <div id="map-container" class="z-depth-1-half map-container" style="height: 400px"></div>
+
+                    <br>
+                    <!--Buttons-->
+                    <div class="row text-xs-center" data-wow-delay="0.2s">
+                        <div class="col-md-4 wow slideInUp">
+                            <a class="btn-floating btn-small purple"><i class="fa fa-map-marker"></i></a>
+                            <p>Blitar</p>
+                            <p>Indonesia</p>
+                        </div>
+
+                        <div class="col-md-4 wow slideInUp" data-wow-delay="0.4s">
+                            <a class="btn-floating btn-small purple"><i class="fa fa-phone"></i></a>
+                            <p>085854444457</p>
+                            <p>(hanya WhatsApp/SMS)</p>
+                        </div>
+
+                        <div class="col-md-4 wow slideInUp" data-wow-delay="0.6s">
+                            <a class="btn-floating btn-small purple"><i class="fa fa-envelope"></i></a>
+                            <p>rajatangki99@gmail.com</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/Second column-->
+
+            </div>
+
+        </section>
+        <!--/Section: Kontak-->
+
     </div>
-    <!-- AKHIR HEADER -->
-
-
-    <a href="#screens">
-      <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-shadow--4dp" data-scroll-to="android-screen-section">
-        <i class="material-icons">expand_more</i>
-      </button>
-    </a>
-
-  </div>
-
-  <div class="android-customized-section">
-    <div class="android-customized-section-text">
-      <a name="screens" class="screens"></a>
-      <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">
-        Mengapa harus memesan tangki solar dan tangki air di kami?
-      </div>
-
-
-
-      <p class="mdl-typography--font-light">
-        Kami sudah berpengalaman selama puluhan tahun di bisnis Pembuatan tangki ini, jadi kami tahu benar apa yang menjadi kebutuhan pelanggan kami. Berdasarkan pengalaman itulah kami sangat menonjolkan kualitas aneka jenis tangki air atau tangki solar bbm yang kami buat.
-      </p>
-    </div>
-    <div class="android-customized-section-image"></div>
-  </div>
-
-  <!-- <div class="slides slide-one build-your-business-for-the-future-and-partner-with-google-for-work">
-    <div class="wrapper maia-aux">
-      <div class="content maia-col-5 mdl-color-text--white">
-        <h2 class="heading mdl-typography--font-light">
-          Build your business for the future and partner with Google Cloud
-        </h2>
-        <p>
-          We’ve designed the Google Cloud Partner Program to enable you to sell, service,
-          and innovate by leveraging our products and platforms across the Google Cloud
-          suite. Partners are a fundamental part of the Google Cloud mission, to empower
-          billions of people to work the way they choose and build what’s next.
-        </p>
-      </div>
-    </div>
-    <figure class="image"></figure>
-  </div> -->
-
-  <div class="android-more-section">
-    <div class="android-section-title mdl-typography--display-1-color-contrast mdl-typography--text-center"> Jenis Tangki yang Kami Buat</div>
-
-    <div class="android-card-container mdl-grid">
-
-      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-        <div class="mdl-card__media">
-          <img src="products/4.jpeg">
-        </div>
-        <div class="mdl-card__title">
-         <h4 class="mdl-card__title-text">Tangki Air</h4>
-       </div>
-       <div class="mdl-card__supporting-text">
-        <span class="mdl-typography--font-light mdl-typography--subhead">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-        </span>
-      </div>
-
-    </div>
-
-    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-      <div class="mdl-card__media">
-        <img src="products/6.jpeg">
-      </div>
-      <div class="mdl-card__title">
-       <h4 class="mdl-card__title-text">Tangki Solar</h4>
-     </div>
-     <div class="mdl-card__supporting-text">
-      <span class="mdl-typography--font-light mdl-typography--subhead">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-      </span>
-    </div>
-  </div>
-
-  <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-    <div class="mdl-card__media">
-      <img src="products/7.jpeg">
-    </div>
-    <div class="mdl-card__title">
-     <h4 class="mdl-card__title-text">Tangki Pupuk</h4>
-   </div>
-   <div class="mdl-card__supporting-text">
-     <span class="mdl-typography--font-light mdl-typography--subhead">
-       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-     </span>
-   </div>
- </div>
-
- <div class="mdl-grid">
-  <div class="mdl-layout-spacer"></div>
-  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-      <i class="material-icons">pageview</i> Lihat Detail Produk
-  </button>
-  <div class="mdl-layout-spacer"></div>
-</div>
-
-</div>
-</div>
-
-
-<footer class="android-footer mdl-mega-footer">
-  <div class="mdl-mega-footer--top-section">
-    <div class="mdl-mega-footer--left-section">
-     <a href="http://Instagram.com/home?status=" title="Share on Instagram" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--instagram"><i class="fa fa-instagram fa-fw"></i></a>
-     <!-- Facebook -->
-     <a href="https://www.facebook.com/sharer/sharer.php?u=" title="Share on Facebook" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--facebook"><i class="fa fa-facebook fa-fw"></i></a>
-   </div>
-   <div class="mdl-mega-footer--right-section">
-    <a class="mdl-typography--font-light" href="#top">
-      Back to Top
-      <i class="material-icons">expand_less</i>
-    </a>
-  </div>
-</div>
-
-<div class="mdl-mega-footer--middle-section">
-  <p class="mdl-typography--font-light">Satellite imagery: © 2016 Astrium, DigitalGlobe</p>
-  <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
-</div>
-
-
-</footer>
-</div>
-
-
-
-
+</main>
+<!--/Main layout-->

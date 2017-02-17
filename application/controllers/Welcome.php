@@ -8,7 +8,6 @@ class Welcome extends CI_Controller {
 		$this->load->view('head');
 		$this->load->view('homepage/navbar');
 		$this->load->view('homepage/index');
-		$this->load->view('homepage/profile');
 		$this->load->view('javascript');
 
 		// $this->load->view('home');
@@ -17,27 +16,19 @@ class Welcome extends CI_Controller {
 	public function order(){
 
 		$this->load->view('head');
-		$this->load->view('homepage/navbar');
-		$this->load->view('homepage/order');
+		// $this->load->view('homepage/navbar');
+		$this->load->view('home');
+		// $this->load->view('homepage/order');
 		$this->load->view('homepage/profile');
 		$this->load->view('javascript');
 
 	}
 
 	public function produk(){
-		
+
 		$this->load->view('head');
-		$this->load->view('homepage/navbar');
+		$this->load->view('homepage/navbar2');
 		$this->load->view('homepage/produk');
-		$this->load->view('homepage/profile');
-		$this->load->view('javascript');
-
-	}
-
-	public function cari_barang($id){
-
-		$this->load->view('head');
-		$this->load->view('homepage/navbar');
 		$this->load->view('javascript');
 
 	}

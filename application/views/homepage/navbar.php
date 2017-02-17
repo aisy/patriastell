@@ -1,61 +1,73 @@
+<!--Navigation & Intro-->
+<header class="header-home">
 
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
-    <div class="mdl-layout__header-row">
-      <span class="android-title mdl-layout-title">
-        <img class="android-logo-image" src="<?= base_url().'mdl/' ?>images/Asset_11.png">
-      </span>
-      <!-- Add spacer, to align navigation to the right in desktop -->
-      <div class="android-header-spacer mdl-layout-spacer"></div>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar">
 
-      <!-- Navigation -->
-      <div class="android-navigation-container">
-        <nav class="android-navigation mdl-navigation">
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="<?= base_url('produk') ?>">
-            <i class="material-icons">store</i> Produk
-          </a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="<?= base_url('pemesanan') ?>">
-            <i class="material-icons">archive</i> Pemesanan
-          </a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">
-            <i class="material-icons">assignment_ind</i> Tentang kami
-          </a>
-        </nav>
-      </div>
-      <span class="android-mobile-title mdl-layout-title">
-        <img class="android-logo-image" src="<?= base_url().'mdl/' ?>images/Asset_11.png">
-      </span>
+        <!-- Collapse button-->
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">
+        <i class="fa fa-bars"></i></button>
 
-      <!-- <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect show-modal" id="show-modal-example">
-        <i class="material-icons">perm_contact_calendar</i>
-      </button> -->
+        <div class="container">
 
-    </div>
-  </div>
+            <!--Collapse content-->
+            <div class="collapse navbar-toggleable-xs" id="collapseEx">
+                <!--Navbar Brand-->
+                <a class="navbar-brand" href="<?= base_url() ?>">Patria Steel Enginering</a>
+                <!--Links-->
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('produk') ?>">Produk Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#examples-of-use">Cara Pemesanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Profil kami</a>
+                    </li>
+                </ul>
 
-  <div class="android-drawer mdl-layout__drawer">
-    <span class="mdl-layout-title">
-      <img class="android-logo-image" src="<?= base_url().'mdl/' ?>images/Asset_11.png">
-    </span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">
-        <i class="material-icons">store</i> Produk
-      </a>
-      <a class="mdl-navigation__link" href="">
-        <i class="material-icons">archive</i>Order
-      </a>
-      <a class="mdl-navigation__link" href="">
-        <i class="material-icons">assignment_ind</i> Tentang kami
-      </a>
-      <!-- <a class="mdl-navigation__link" href="">menu 4</a> -->
-      <!-- <a class="mdl-navigation__link" href="">Pickup</a> -->
+                <!--Navbar icons-->
+                <ul class="nav navbar-nav nav-flex-icons">
+                    <li class="nav-item wow rubberBand" data-wow-delay="0.2s">
+                        <a class="nav-link"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item wow rubberBand" data-wow-delay="0.3s">
+                        <a class="nav-link"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item wow rubberBand" data-wow-delay="0.4s">
+                        <a class="nav-link"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.Collapse content-->
 
-      <!-- <div class="android-drawer-separator"></div>
-      <span class="mdl-navigation__link" href="">Versions</span>
-      <a class="mdl-navigation__link" href="">Lollipop 5.0</a>
-      <a class="mdl-navigation__link" href="">KitKat 4.4</a>
-      <a class="mdl-navigation__link" href="">Jelly Bean 4.3</a>
-      <a class="mdl-navigation__link" href="">Android history</a> -->
+        </div>
 
     </nav>
-  </div>
+    <!--/.Navbar-->
+
+    <!--Mask-->
+    <div class="view hm-black-strong">
+      <div class="full-bg-img flex-center" id="home">
+              <ul>
+                <li>
+                  <img src="<?= base_url('mdb/img/PSE.png') ?>" class="logo_header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;" alt="">
+                </li>
+                  <li>
+                      <h1 class="h1-responsive wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Selamat datang di Website kami</h1></li>
+                  <li class="perkenalan">
+                      <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Kami dari Patria Steel Enginering yang bergerak di bidang perdagangan dan instalasi aneka jenis tangki murah untuk kebutuhan industri dengan kualitas prima dan harga bersaing.</p>
+
+                      <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Apapun kebutuhan anda akan TANGKI AIR, TANGKI SOLAR dan TANGKI PUPUK serta dimanapun lokasi anda di Jawa timur bahkan Indonesia kami siap selalu memenuhi kebutuhan tangki anda. </p>
+                  </li>
+                  <li class="smooth-scroll">
+                      <a href="#produk" class="btn btn-outline-white btn-lg wow fadeInLeft waves-effect waves-light" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;"> Lihat Selengkapnya</a>
+                  </li>
+              </ul>
+          </div>
+    </div>
+    <!--/.Mask-->
+
+</header>
+<!--/Navigation & Intro-->

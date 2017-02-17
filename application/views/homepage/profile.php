@@ -1,4 +1,4 @@
-<dialog class="mdl-dialog" id="modal-example">
+<dialog class="mdl-dialog" id="dialog">
   <div class="mdl-dialog__content">
 
     <div class="mdl-grid">
@@ -26,10 +26,6 @@
       </div>
     </div>
 
-
-
-
-
   </div>
   <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
     <button type="button" class="mdl-button">Close</button>
@@ -37,22 +33,3 @@
 </dialog>
 
 
-<script>
-  (function() {
-    'use strict';
-    var dialog = document.querySelector('#modal-example');
-    var closeButton = dialog.querySelector('button');
-    var showButton = document.querySelector('#show-modal-example');
-    if (! dialog.showModal) {
-      dialogPolyfill.registerDialog(dialog);
-    }
-    var closeClickHandler = function(event) {
-      dialog.close();
-    };
-    var showClickHandler = function(event) {
-      dialog.showModal();
-    };
-    showButton.addEventListener('click', showClickHandler);
-    closeButton.addEventListener('click', closeClickHandler);
-  }());
-</script>
